@@ -41,13 +41,15 @@
     width: 210px;
     height: 210px ;
     border-radius: 50%;
-    margin:1em 0 0 3em;
-    box-shadow: 1px 1px 2px white; 
+    margin:2em 0 0 3em;
+    box-shadow: 1px 1px 2px white;
+    border: 2px solid  rgb(4, 139, 157);
+    outline: 3px solid white; 
 }
 /* SIDEBARCONTENT */
 
 .four1,.link2{
-margin: 2em 0 0 0;
+margin: 4em 0 0 0;
 text-align: center;
 text-decoration: none;
 color: rgba(247, 241, 241, 0.5);
@@ -57,6 +59,7 @@ color: rgba(247, 241, 241, 0.5);
 
 .link2:hover{
     color: white;
+    text-decoration: underline;
 }
 
 
@@ -71,6 +74,7 @@ color: rgba(247, 241, 241, 0.5);
 }
 .linkk3:hover{
     color: white;
+    text-decoration: underline;
 }
 
 
@@ -86,6 +90,7 @@ color: rgba(247, 241, 241, 0.5);
 
 .link4:hover{
     color: white;
+    text-decoration: underline;
 }
 
 /* skills */
@@ -99,6 +104,7 @@ color: rgba(247, 241, 241, 0.5);
 
 .link5:hover{
     color: white;
+    text-decoration: underline;
 
 }
 
@@ -115,10 +121,24 @@ color: rgba(247, 241, 241, 0.5);
 
 .link6:hover{
     color: white;
+    text-decoration: underline;
 
 }
 
+.four6,.link7{
 
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(253, 245, 245, 0.5);
+}
+
+.link7:hover{
+    color: white;
+    text-decoration: underline;
+
+}
 
 
 /* content  */
@@ -161,10 +181,50 @@ overflow: auto;
     font-size: 1.6em;
 }
 
+/* icons */
+
+.icon11{
+    font-size: 3em;
+    color: rgb(56, 55, 55);
+}
+
+.linkedin{
+    margin: 2.6em 0 0 2em;
+}
+
+.icon22{
+    font-size: 3em;
+    color: rgb(56, 55, 55);
+    text-decoration: none;
+}
+
+.github{
+    margin-left: 1.5em;
+}
+
+.icon33{
+    font-size: 3em;
+    color: rgb(56, 55, 55);
+    
+}
+
+.twitter{
+    margin-left: 1.5em;
+}
+
+.icon44{
+    font-size: 3em;
+    color: rgb(56, 55, 55);
+    
+}
+
+.facebook{
+    margin-left: 1.5em;
+}
 
 
 .borderb1{
-    margin: 15em 0 0 0;
+    margin: 7em 0 0 0;
     border: 1px solid  rgb(217, 216, 216);
 }
 
@@ -174,10 +234,6 @@ overflow: auto;
 .ho1{
    text-indent: 1em;
 }
-
-
-
-
 
 .ht1{
     margin: 2em 0 0 1em;
@@ -341,6 +397,7 @@ font-family: Chakra Petch;
 .paragraph1{
     margin: 2em 0 2em 3em;
     font-size: 1.4em;
+    color:  rgba(27, 27, 27, 0.6);;
     
 }
 
@@ -358,8 +415,14 @@ font-family: Chakra Petch;
     font-size: 2em;
 }
 
+.award{
+     color: rgba(27, 27, 27, 0.6); ;
+     font-family: "Arsenal SC", sans-serif;
+    text-transform: capitalize;
+}
+
 .trophy{
-   margin-left: 2em;
+   margin-left: 1em;
     color: rgb(238, 189, 75);
 }
 
