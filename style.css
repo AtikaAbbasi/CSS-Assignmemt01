@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+@font-face {
+    font-family:font1 ;
+    src: url(./Assets/fonts/Rajdhani-Medium.ttf);
+}
+
+
+
+
+    /* containar */
+
+
+    .container{         
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(217, 216, 216);
+    
+}
+
+/* sidebar*/
+
+
+
+.box1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(4, 139, 157);
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.image{
+    width: 210px;
+    height: 210px ;
+    border-radius: 50%;
+    margin:1em 0 0 3em;
+    box-shadow: 1px 1px 2px white; 
+}
+/* SIDEBARCONTENT */
+
+.four1,.link2{
+margin: 2em 0 0 0;
+text-align: center;
+text-decoration: none;
+color: rgba(247, 241, 241, 0.5);
+
+}
+
+
+.link2:hover{
+    color: white;
+}
+
+
+/* experience */
+
+.four2,.linkk3{
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(253, 245, 245, 0.5);
+}
+.linkk3:hover{
+    color: white;
+}
+
+
+/* education */
+
+.four3,.link4{
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(253, 245, 245, 0.5);
+}
+
+.link4:hover{
+    color: white;
+}
+
+/* skills */
+.four4,.link5{
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(253, 245, 245, 0.5);
+}
+
+.link5:hover{
+    color: white;
+
+}
+
+/* interest */
+
+.four5,.link6{
+
+    margin-top: 1em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(253, 245, 245, 0.5);
+}
+
+.link6:hover{
+    color: white;
+
+}
+
+
+
+
+/* content  */
+
+
+.box2{
+width: 74%;
+max-height: 99%;
+background-color: rgb(203, 233, 238);
+display: inline-block;
+overflow: auto;
+}
+
+
+.blue{
+    text-indent: 1em;
+    margin: 2em 0 0 0 ;
+    color:  rgb(4, 93, 105);
+    font-size: 2.6em;
+}
+
+.black{
+    color: rgb(32, 32, 32);
+}
+
+.pink{
+    margin: 2em 0 0 3em;
+    color: rgb(57, 56, 56);
+    font-family: 'Lucida Sans' ;
+}
+.link1, .span{
+    color: rgb(4, 139, 157);
+    display: block;
+    margin: 2em 0 0 0;
+}
+
+.para1{
+    margin: 1em 0 0 2em;
+    color: rgba(8, 8, 8, 0.5);
+    font-size: 1.6em;
+}
+
+
+
+.borderb1{
+    margin: 15em 0 0 0;
+    border: 1px solid  rgb(217, 216, 216);
+}
+
+
+/* eperience styling */
+
+.ho1{
+   text-indent: 1em;
+}
+
+
+
+
+
+.ht1{
+    margin: 2em 0 0 1em;
+}
+.span2{
+    font-family: font1;
+    color: rgba(27, 27, 27, 0.5);
+    display: block;
+   margin-top: 1em;
+}
+
+.span3{
+    display: block;
+    margin: 2em 0 0 10em;
+    color: rgba(4, 139, 157);
+    font-family: Bebas Neue;
+}
+
+.para2{
+    margin: 1em 0 0 2em;
+    color: rgba(27, 27, 27, 0.6);
+    font-size: 1.5em;
+}
+
+
+
+.bottomb2{
+    margin: 15em 0 0 0;
+    border: 1px solid  rgb(217, 216, 216);;
+}
+
+
+/* educatiom */
+
+.edu{
+    margin: 2em 0 0 1em;
+}
+
+.school{
+    margin: 3em 0 0 1em;
+    text-transform: uppercase;
+
+}
+.group{
+    color: rgba (21, 21, 21 ,0.8);
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    color: rgba(6, 6, 6, 0.6);
+    margin-top: 2em;
+}
+
+
+.pre{
+    margin: 2em 0 0 1em;
+    color: rgba(39, 38, 38, 0.5);
+    font-size: 1.5em;
+
+}
+
+.sp1{
+    display: block;
+    margin: 4em 0 0 2em;
+    color: rgba(4, 139, 157);
+    font-family: Bebas Neue;
+
+}
+
+.bottom3{
+    margin-top: 10em;
+    border: 1px solid  rgb(217, 216, 216);
+}
+/* skills */
+.skill{
+    margin: 3em 0 0 1em;
+}
+
+.htwo1{
+    margin: 3em 0 0 1em ;
+color: rgba(28, 27, 27 , 0.5);
+text-transform: uppercase;
+font-family: Chakra Petch;
+
+}
+
+.html{
+    margin: 1em 0 0 0.5em;
+    font-size: 5em;
+    color: rgba(33, 33, 33, 0.6);
+}
+
+.wordh{
+    margin: 2em 0 0 1em;
+    color: rgba(28, 27, 27 , 0.5);
+    font-family: chakra petch;
+    font-size: 1.5em;
+}
+
+.check{
+    margin: 2em 0 0 2em;
+    color: rgba(28, 27, 27 , 0.7);
+}
+
+.skspan{
+   margin-left: 1em;
+   font-size: 1em;
+   color: rgba(28, 27, 27 , 0.5);
+   font-family: chakra petch;
+   text-transform: capitalize;
+}
+.check2{
+   margin-left: 2em;
+    color: rgba(28, 27, 27 , 0.7);
+}
+
+.skspan2{
+    margin-left: 1em;
+    font-size: 1em;
+    color: rgba(28, 27, 27 , 0.5);
+    font-family: chakra petch;
+    text-transform: capitalize;
+ }
+
+ .check3{
+    margin-left: 2em;
+     color: rgba(28, 27, 27 , 0.7);
+ }
+
+ .skspan3{
+    margin-left: 1em;
+    font-size: 1em;
+    color: rgba(28, 27, 27 , 0.5);
+    font-family: chakra petch;
+    text-transform: capitalize;
+ }
+ .check4{
+    margin-left: 2em;
+     color: rgba(28, 27, 27 , 0.7);
+ }
+ .skspan4{
+    margin-left: 1em;
+    font-size: 1em;
+    color: rgba(28, 27, 27 , 0.5);
+    font-family: chakra petch;
+    text-transform: capitalize;
+ }
+
+.bottom4{
+    margin-top: 10em;
+    border: 1px solid  rgb(217, 216, 216);
+}
+
+
+/* interest */
+
+
+.inter{
+    margin: 3em 0 3em 1em;
+}
+
+.paragraph1{
+    margin: 2em 0 2em 3em;
+    font-size: 1.4em;
+    
+}
+
+.bottom5{
+    border: 1px solid   rgb(217, 216, 216);
+    margin-top: 7em;
+}
+
+
+/* awards and certificate */
+
+.aandc{
+    margin: 2em 0 3em 1em;
+    font-family: 'Lucida Sans';
+    font-size: 2em;
+}
+
+.trophy{
+   margin-left: 2em;
+    color: rgb(238, 189, 75);
+}
+
+
+.top{
+    vertical-align: super;
+}
