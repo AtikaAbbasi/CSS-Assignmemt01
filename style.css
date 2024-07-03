@@ -183,44 +183,53 @@ overflow: auto;
 
 /* icons */
 
-.icon11{
-    font-size: 3em;
-    color: rgb(56, 55, 55);
+.icon1{
+    color: white;
+background-color: rgb(37, 37, 37);
+padding: 0.4em 0.6em 0.5em 0.5em;
+border-radius: 50%;
+font-size: 2em;
+
 }
 
-.linkedin{
-    margin: 2.6em 0 0 2em;
+
+
+
+
+.icon2{
+    color: white;
+background-color: rgb(37, 37, 37);
+padding: 0.4em 0.3em 0.5em 0.5em;
+border-radius: 50%;
+text-decoration: none;
+font-size: 2em;
+
+
 }
 
-.icon22{
-    font-size: 3em;
-    color: rgb(56, 55, 55);
-    text-decoration: none;
+
+.icon3{
+    color: white;
+background-color: rgb(37, 37, 37);
+padding: 0.5em 0.5em 0.5em 0.6em;
+border-radius: 50%;
+text-decoration: none;
+font-size: 2em;
+
+
 }
 
-.github{
-    margin-left: 1.5em;
+
+.icon4{
+    color: white;
+background-color: rgb(37, 37, 37);
+padding: 0.5em 0.7em 0.4em 0.7em;
+border-radius: 50%;
+font-size: 2em;
+
+
 }
 
-.icon33{
-    font-size: 3em;
-    color: rgb(56, 55, 55);
-    
-}
-
-.twitter{
-    margin-left: 1.5em;
-}
-
-.icon44{
-    font-size: 3em;
-    color: rgb(56, 55, 55);
-    
-}
-
-.facebook{
-    margin-left: 1.5em;
-}
 
 
 .borderb1{
